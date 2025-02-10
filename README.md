@@ -12,4 +12,4 @@ A Decorator is a function that wraps another function to enhance its behaviour
 
  I don't have a pet so here's a random dog instead
 
- ![Dog Pic](example.jpg)
+ ![Dog Pic](dog.jpg)
