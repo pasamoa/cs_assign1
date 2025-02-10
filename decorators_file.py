@@ -1,7 +1,7 @@
 import time
 
 def execution_timer(func):
-
+#Decorator that prints execution time of a function
   def wrapper(*args, **kwargs):
     start_time = time.time()
     result = func(*args, **kwargs)
@@ -12,9 +12,9 @@ def execution_timer(func):
 
 @execution_timer
 def example_function():
-
+#A sample function that takes some time to execute
   print("Running function...")
-  time.sleep(2)
+  #time.sleep(2)
   print("Function execution completed")
 
 if __name__ = "__main__":
